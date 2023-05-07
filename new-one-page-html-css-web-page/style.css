@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.arkaplan {
+    background-color: #4b4b4b;
+}
+
+.kapsayici {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.ust {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    min-height: 20rem;
+}
+
+.ust .logo {
+    color: #fff;
+    text-align: center;
+}
+
+.ust .logo h1 {
+    letter-spacing: .5rem;
+    font-size: 4rem;
+}
+
+.ust .logo h2 {
+    font-size: 2rem;
+}
+
+.ust .menu {
+}
+
+.ust .menu ul {
+    display: flex;
+}
+
+.ust .menu ul li {
+    margin: 0 1rem;
+}
+
+.ust .menu ul a {
+    color: #ffffff;
+    padding: 0 1rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: color 500ms;
+}
+
+.ust .menu ul a:hover {
+    color: #ff9f1a;
+}
+
+.orta .bolum1 {
+    padding: 10px;
+    margin-top: 2rem;
+    border: 6px solid black;
+}
+
+.orta .bolum1 img {
+    width: 100%;
+}
+
+.orta .bolum2 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orta .bolum2 .kutu {
+    flex-basis: 290px;
+}
+
+.orta .bolum2 .kutu h2 {
+    font-size: 2rem;
+}
+
+.orta .bolum2 .kutu p {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+
+.orta .bolum3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.orta .bolum3 .icerik h1 {
+    font-size: 2.5rem;
+}
+
+.orta .bolum3 .icerik p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.cizgi {
+    margin-top: 20px;
+    border-top: rgba(0, 0, 0, 0.5) solid 1px;
+}
+
+.alt {
+    margin-top: 2rem;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.alt .baglanti {
+    flex-grow: 1;
+}
+
+.alt .baglanti a {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #ff9f1a;
+}
+
+.alt .baglanti li {
+    margin: 5px 0;
+    border-bottom: white solid 1px;
+}
+
